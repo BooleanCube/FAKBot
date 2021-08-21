@@ -15,7 +15,7 @@ public class Main {
     private Main() throws LoginException, InterruptedException {
         System.out.println("Booting...");
         JDA jda = new JDABuilder(AccountType.BOT)
-                .setToken("Njc2MTM3MDI5NzU0NDIxMjQ4.XkU6og.Y519ZY_YluYFdUOrCpuFzg4Np9Q")
+                .setToken("never gonna give you up")
                 .setGame(Game.playing("Type fakhelp for help!"))
                 .setAudioEnabled(false)
                 .addEventListener(new Test())
